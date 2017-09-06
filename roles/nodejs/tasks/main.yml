@@ -3,7 +3,7 @@
 - name: Installing node and npm
   yum:
     name: "{{ item }}"
-    enablerepo: amzn-updates
+    enablerepo: epel
     state: installed
   with_items:
     - nodejs
