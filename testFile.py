@@ -11,7 +11,7 @@ NOTE: This script assumes Ansible is being executed where the environment
 variables needed for Boto have already been set:
     export AWS_ACCESS_KEY_ID='AK123'
     export AWS_SECRET_ACCESS_KEY='abc123'
-
+note i123
 optional region environment variable if region is 'auto'
 
 This script also assumes there is an ec2.ini file alongside it.  To specify a
